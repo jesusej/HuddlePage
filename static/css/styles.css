@@ -1,0 +1,178 @@
+/* Estilos generales */
+body{
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+h1,
+h2{
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+ul{
+  list-style: none;
+}
+
+/* Utilidades */
+
+.circle{
+  border: 1px;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: whitesmoke;
+  width: 1.88em;
+  margin: 0.3em;
+}
+
+/* Header*/
+
+.page-header{
+  background-image: url('../images/bg-mobile.svg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  padding: 2em;
+}
+
+@media screen and (min-width: 968px){
+  .page-header{
+    background-image: url('../images/bg-desktop.svg');
+    padding: 2.5em 3.8em 2.5em 3.3em;
+    height: 99vh;
+  }
+}
+
+.logo{
+  width: 130px;
+  margin-bottom: 3.3em;
+}
+
+@media screen and (min-width: 968px){
+  .logo{
+    width: 170px;
+    margin-bottom: 3.9em;
+  }
+}
+
+/* Contenido */
+
+.contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 968px){
+  .contenido{
+    flex-direction: row;
+    text-align: left;
+    align-items:flex-start
+  }
+}
+
+.contenido img{
+  width: 98%;
+}
+
+.contenido h1{
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: 2.4em;
+}
+
+.contenido p{
+  line-height: 1.5;
+  margin-bottom: 1.6em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+/* Texto (Sólo para PC) */
+
+@media screen and (min-width: 968px){
+  .texto{
+    padding-left: 2.5em;
+    padding-right: 1em;
+  }
+  .contenido h1{
+    margin-top: 1em;
+    font-size: 2.5rem;
+  }
+
+  .contenido p{
+    font-size: 1.2rem;
+  }
+}
+
+.btn-registrar{
+  border: none;
+  background-color: whitesmoke;
+  color: hsl(257, 40%, 49%);
+  width: 220px;
+  padding: 1em 2em;
+  border-radius: 50px;
+  margin-bottom: 4.9em;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+  transition: all 0.3s ease-in;
+  font-size: 0.9em;
+}
+
+@media screen and (min-width: 968px){
+  .btn-registrar{
+    margin-bottom: 0;
+    width: 185px;
+    font-size: 1.01rem;
+  }
+}
+
+.btn-registrar:hover {
+  transform: translateY(-5px);
+}
+
+/* Redes */
+
+.redes{
+  display: flex;
+  padding: 0;
+  width: 122px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 968px){
+  .redes{
+    width: 135px;
+    margin-top: 3em;
+    margin-right: 0;
+  }
+}
+
+.redes img{
+  height: 0.95em;
+  filter: invert(97%) sepia(62%) saturate(1%) hue-rotate(264deg) brightness(113%) contrast(92%);
+}
+
+.facebook{
+  padding: 0.4em 0.6em;
+}
+
+.twitter{
+  padding: 0.41em 0.49em;
+}
+
+.instagram{
+  padding: 0.4em 0.5em;
+}
