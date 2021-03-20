@@ -62,9 +62,9 @@ ul{
   }
 }
 
-/* Contenido */
+/* Content */
 
-.contenido{
+.content{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,49 +73,49 @@ ul{
 }
 
 @media screen and (min-width: 968px){
-  .contenido{
+  .content{
     flex-direction: row;
     text-align: left;
     align-items:flex-start
   }
 }
 
-.contenido img{
+.content img{
   width: 98%;
 }
 
-.contenido h1{
+.content h1{
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.5;
   margin-top: 2.4em;
 }
 
-.contenido p{
+.content p{
   line-height: 1.5;
   margin-bottom: 1.6em;
   margin-left: 0.3em;
   margin-right: 0.3em;
 }
 
-/* Texto (Sólo para PC) */
+/* Text (Only for PC) */
 
 @media screen and (min-width: 968px){
-  .texto{
+  .text{
     padding-left: 2.5em;
     padding-right: 1em;
   }
-  .contenido h1{
+  .content h1{
     margin-top: 1em;
     font-size: 2.5rem;
   }
 
-  .contenido p{
+  .content p{
     font-size: 1.2rem;
   }
 }
 
-.btn-registrar{
+.btn-register{
   border: none;
   background-color: whitesmoke;
   color: hsl(257, 40%, 49%);
@@ -130,20 +130,20 @@ ul{
 }
 
 @media screen and (min-width: 968px){
-  .btn-registrar{
+  .btn-register{
     margin-bottom: 0;
     width: 185px;
     font-size: 1.01rem;
   }
 }
 
-.btn-registrar:hover {
+.btn-register:hover {
   transform: translateY(-5px);
 }
 
-/* Redes */
+/* Social */
 
-.redes{
+.social{
   display: flex;
   padding: 0;
   width: 122px;
@@ -153,14 +153,14 @@ ul{
 }
 
 @media screen and (min-width: 968px){
-  .redes{
+  .social{
     width: 135px;
     margin-top: 3em;
     margin-right: 0;
   }
 }
 
-.redes img{
+.social img{
   height: 0.95em;
   filter: invert(97%) sepia(62%) saturate(1%) hue-rotate(264deg) brightness(113%) contrast(92%);
 }
