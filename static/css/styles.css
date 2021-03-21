@@ -47,6 +47,7 @@ ul{
     background-image: url('../images/bg-desktop.svg');
     padding: 2.5em 0 2.5em 3.3em;
     width: 160vh;
+    height: 90vh;
   }
 }
 
