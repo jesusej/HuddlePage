@@ -37,6 +37,7 @@ Thank you for checking this solution! If you don't know what I'm talking about, 
 
 Here you can try the live site or give me a comment!
 - [Live Site](https://thenutscout.github.io/HuddlePage/)
+- [Solution](https://www.frontendmentor.io/solutions/huddle-landing-page-solution-with-html-and-css-using-flexbox-8xxgVxXin)
 
 ## My process
 
