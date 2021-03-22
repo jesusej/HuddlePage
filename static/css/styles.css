@@ -20,7 +20,7 @@ ul{
   list-style: none;
 }
 
-/* Utilidades */
+/* Utilities */
 
 .circle{
   border: 1px;
@@ -77,7 +77,7 @@ ul{
   .content{
     flex-direction: row;
     text-align: left;
-    align-items:flex-start;
+    align-items: flex-start;
   }
 }
 
