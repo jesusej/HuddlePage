@@ -4,7 +4,7 @@
 
 ## Hi! 👋
 
-Thank you for checking this solution! If you don't know what I'm talking about, this is a solution to the [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) This is actually my first Front-End Mentor Challenge, and also my first approachment to CSS by my own.
+Thank you for checking this solution! If you don't know what I'm talking about, this is a solution to the [Huddle landing page with a single introductory section](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). This is actually my first Front-End Mentor Challenge, and also my first approachment to CSS by my own.
 
 ## Table of contents
 
@@ -92,7 +92,7 @@ As I showed in the [screenshot](#screenshot) the page design works fine... for t
 
 Also it's my first time working with svg's, and I think that I managed it really fine for the backgrounds. But I didn't finished to learn how they work really well so I used them as images for the styling and (as I read) I think that's wrong somehow. It could work for this situation but I don't think it would work for other ones (correct me if I'm wrong!). So I want to learn more in svg and learn how to use it properly in other challenges.  
 
-At the end I think the page got decent, but I think I'll try it again on another time. Maybe when I learn how to get over these flags.
+At the end I think the page got decent, but I think I'll try it again on another time. Maybe when I learn how to get over these flags, or maybe just update this solution. I'll see what's best in the future.
 
 ### Useful resources
 
