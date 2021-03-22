@@ -26,9 +26,12 @@ Thank you for checking this solution! If you don't know what I'm talking about, 
 
 - Build out the project to the designs provided.
 
-### Screenshot
+### Screenshot (not finished)
 
-![](./static/images/screenshots/opera.png)
+#### Desktop:
+![DesktopScreenshot](./static/images/screenshots/opera.png)
+#### Mobile:
+![MobileScreenshot](./static/images/screenshots/operaMobile.png)
 
 ### Links
 
@@ -53,40 +56,57 @@ Here you can try the live site or give me a comment!
   - [Instagram](https://fontawesome.com/icons/instagram?style=brands)
 
 
-### What I learned (not finished)
+### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+As I said before, this is my first approachment to CSS by my own so I had to think out of the box that I used to have and re-learn some concepts that I learned in school. One of the things that I did and I really liked was the use of utility clases for CSS and HTML like the `circle` class where I used this class to draw a circle around a svg.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.circle{
+  border: 1px;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: whitesmoke;
+  width: 1.88em;
+  margin: 0.3em;
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Other thing that I really liked was the use of @media queries to get the size of the page and know how to work with it, like this one that I used for the `page-header` class:
 
-### Continued development (not finished)
+```css
+@media screen and (min-width: 968px){
+  .page-header{
+    background-image: url('../images/bg-desktop.svg');
+    padding: 2.5em 0 2.5em 3.3em;
+    width: 160vh;
+    height: 90vh;
+  }
+}
+```
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Also I used flexbox for almost everything except the logo and social images and that's something that I liked because how flexible (no pun intended) it is to move the boxes all around the page.
 
-### Useful resources (not finished)
+### Continued development
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+As I showed in the [screenshot](#screenshot) the page design works fine... for the width given by the style-guide. If the width gets any bigger or smaller the shape of the text (and some parts of the page overall) changes, and that's something that I didn't liked. Maybe it's because I prefered to use `em` instead of percentages for the sizing of text and padding for the desktop version, so I want to balance this more in future challenges.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Also it's my first time working with svg's, and I think that I managed it really fine for the backgrounds. But I didn't finished to learn how they work really well so I used them as images for the styling and (as I read) I think that's wrong somehow. It could work for this situation but I don't think it would work for other ones (correct me if I'm wrong!). So I want to learn more in svg and learn how to use it properly in other challenges.  
+
+At the end I think the page got decent, but I think I'll try it again on another time. Maybe when I learn how to get over these flags.
+
+### Useful resources
+
+- [Mozilla developer](https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me searching in some css doubts that I had while working on this project. It's very complete (even helping me in other coding stuff like JS) so I recommend to check it.
+- [StackOverflow thread](https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element) - This helped me to learn how to change the color of a svg. It has a lot of solutions so if a solution doesn't convince you, you can try the next one!
+- [Clickpen filter generator](https://codepen.io/sosuke/pen/Pjoqqp) - The filter generator that helps you how to change colors! It's the technique that I used in this challenge.
+- [Dev George's tutorial](https://www.youtube.com/watch?v=7T3POT0oQvc) - Tutorial that I based (and made me knew about Frontend Mentor) all my code from the mobile design (only in spanish).
 
 ## Author
 
-By the moment my only contact that I give is my Frontend Mentor, here you can know a little about me and check the other solutions that I will upload:
+By the moment my only contact that I give is my Frontend Mentor account, here you can know a little about me and check the other solutions that I will upload:
 
 - Frontend Mentor - [@thenutscout](https://www.frontendmentor.io/profile/thenutscout)
 
-## Acknowledgments (not finished)
+## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+And here we are at the end! I really liked this challenge so I want to first thank Frontend Mentor to create this challenge. Also I want to thank Algoritmia Club GDA (Dev George) which you can check their page [here](https://www.algoritmia-gda.club) (only in spanish) and my friends Pedro and Alex, because if it wasn't by them I wouldn't know about the existing of this page or inspire me to try this type of challenges. At the end but not less important I want to thank **YOU** for taking the time to check this solution and read this loooooooooooooong README. I hope you like what you see and wish you a nice coding!
