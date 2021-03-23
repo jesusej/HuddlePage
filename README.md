@@ -26,7 +26,7 @@ Thank you for checking this solution! If you don't know what I'm talking about, 
 
 - Build out the project to the designs provided.
 
-### Screenshot (not finished)
+### Screenshot
 
 #### Desktop:
 ![DesktopScreenshot](./static/images/screenshots/opera.png)
